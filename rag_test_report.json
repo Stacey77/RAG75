@@ -1,0 +1,79 @@
+{
+  "pipeline_config": {
+    "chunk_size": 600,
+    "overlap": 100,
+    "top_k": 8,
+    "rerank_k": 4,
+    "use_mmr": true,
+    "lambda_val": 0.6
+  },
+  "sources_processed": [
+    "README.md",
+    "index.html",
+    "styles.css",
+    "script.js",
+    "sample.txt"
+  ],
+  "test_results": {
+    "basic_queries": [
+      {
+        "query": "What is this website about?",
+        "chunks_retrieved": 4,
+        "answer_length": 1281,
+        "success": true
+      },
+      {
+        "query": "What technologies are used?",
+        "chunks_retrieved": 4,
+        "answer_length": 1285,
+        "success": true
+      },
+      {
+        "query": "How to contact?",
+        "chunks_retrieved": 4,
+        "answer_length": 1289,
+        "success": true
+      }
+    ],
+    "technical_queries": [
+      {
+        "query": "What frontend technologies?",
+        "chunks_retrieved": 4,
+        "answer_length": 1285,
+        "success": true
+      },
+      {
+        "query": "CSS architecture?",
+        "chunks_retrieved": 4,
+        "answer_length": 1285,
+        "success": true
+      },
+      {
+        "query": "JavaScript features?",
+        "chunks_retrieved": 4,
+        "answer_length": 1280,
+        "success": true
+      }
+    ],
+    "portfolio_queries": [
+      {
+        "query": "What skills showcased?",
+        "chunks_retrieved": 4,
+        "answer_length": 1287,
+        "success": true
+      },
+      {
+        "query": "What projects featured?",
+        "chunks_retrieved": 4,
+        "answer_length": 1287,
+        "success": true
+      },
+      {
+        "query": "Design approach?",
+        "chunks_retrieved": 4,
+        "answer_length": 1287,
+        "success": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "pipeline": {
+    "chunking": {
+      "chunk_size": 1000,
+      "overlap": 200
+    },
+    "embedding": {
+      "model_name": "all-MiniLM-L6-v2",
+      "dimension": 384
+    },
+    "search": {
+      "top_k": 5,
+      "similarity_threshold": 0.5
+    },
+    "llm": {
+      "model_name": "gpt-3.5-turbo",
+      "temperature": 0.7,
+      "max_tokens": 1000
+    }
+  },
+  "sources": [
+    "README.md",
+    "index.html",
+    "styles.css",
+    "script.js"
+  ],
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  }
+}

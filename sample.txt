@@ -1,0 +1,25 @@
+This is a sample text file for testing the RAG pipeline.
+
+The personal website project showcases modern web development skills and technologies. It includes:
+
+1. Responsive Design
+The website is fully responsive and works on all devices including mobile phones, tablets, and desktop computers. The design uses CSS Grid and Flexbox for layout management.
+
+2. Modern Technologies
+The project uses HTML5, CSS3, and JavaScript ES6+ for frontend development. It incorporates modern design patterns and best practices for web accessibility.
+
+3. Features
+- Hero section with call-to-action buttons
+- About section with personal story and statistics
+- Skills section showcasing technical expertise
+- Projects portfolio with technology tags
+- Contact form with validation
+- Smooth scrolling and micro-interactions
+
+4. Performance Optimization
+The website includes lazy loading for images, debounced scroll events, and hardware-accelerated CSS animations for optimal performance.
+
+5. Accessibility
+Semantic HTML5 structure with proper ARIA labels ensures the website is accessible to users with disabilities and works well with screen readers.
+
+This sample document provides additional content for testing the RAG pipeline's ability to process and retrieve information from multiple sources.
